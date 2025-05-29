@@ -1,0 +1,22 @@
+# Web Framework
+fastapi==0.110.2
+uvicorn[standard]==0.29.0
+
+# Data Validation
+pydantic==2.7.1
+
+# Database (PostgreSQL optional, not used yet)
+sqlalchemy==2.0.30
+asyncpg==0.29.0
+
+# Optional: Search / Indexing (planned)
+# opensearch-py==2.4.2
+
+# Task Queue (for later alert engine)
+# celery==5.3.6
+# redis==5.0.3
+
+# Development Tools
+python-dotenv==1.0.1
+httpx==0.27.0
+pytest==8.2.1
