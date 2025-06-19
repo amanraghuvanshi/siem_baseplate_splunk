@@ -1,0 +1,15 @@
+rules:
+  - name: Port Scan Detected
+    match:
+      message: "port scan"
+      severity: "high"
+    alert:
+      type: slack
+      channel: "#security-alerts"
+
+  - name: Suspicious IP
+    match:
+      source_ip: "192.168.1.15"
+    alert:
+      type: email
+      to: "admin@company.com"
