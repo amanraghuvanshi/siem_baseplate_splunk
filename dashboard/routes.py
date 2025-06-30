@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from ux.visualizer import get_log_summary, get_severity_chart
+from dashboard.visualizer import get_log_summary, get_severity_chart
 
 router = APIRouter()
 
